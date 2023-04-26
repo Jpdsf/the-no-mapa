@@ -31,6 +31,8 @@ a{
     height: 450px;
     width: 500px;
     border-radius: 12px;
+    margin-left: 10px;
+    margin-left: 10px;
 }
 
 .mapa{
@@ -47,11 +49,17 @@ a{
 .interacao{
     font-size: 20px;
     width: 100%;
+
+}
+
+.interacao-pc{
+    font-size: 20px;
+    margin-left: 10px;
 }
 
 .interacao-config{
     color: white;
-    width: 80%;
+    width: 100%;
     height: auto;
     background-color: #334258;
     margin: 0 auto;
