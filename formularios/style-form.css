@@ -1,0 +1,80 @@
+body{
+    font-family: 'Garamond';
+    font-size: 15px;
+    font-weight: bold;
+    height: auto;
+    color: #699008;
+
+}
+
+.nav-cor{
+    background-color: #334258;
+}
+
+.logo{
+    width: 150px;
+}
+
+
+.form{
+    width: 100%;
+    font-size: 20px;
+}
+
+.form-config{
+    width: 80%;
+    height: auto;
+    background-color: #334258;
+    margin: 0 auto;
+    border: 2px solid #334258;
+    border-radius: 7px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+
+.botao{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.inputs{
+    width: 100%;
+    border-radius: 20px;
+    border-color: transparent;
+    padding-left: 20px;
+}
+
+.btn {
+  width: 180px;
+  height: 60px;
+  cursor: pointer;
+  background-color: #699008;
+  border: transparent;
+  outline: none;
+  transition: 1s ease-in-out;
+}
+
+
+.btn:hover {
+  transition: 1s ease-in-out;
+  background: black;
+}
+
+.btn:hover svg {
+  stroke-dashoffset: -480;
+}
+
+.btn span {
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+
+

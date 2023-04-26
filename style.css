@@ -1,0 +1,41 @@
+body{
+    font-family: 'Garamond';
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+
+.nav-cor{
+    background-color: #334258;
+}
+.cabecalho{
+    width: 100%;
+    
+}
+
+.cabecalho-config{
+
+    padding-bottom: 20px;
+    
+}
+
+.logo{
+    width: 150px;
+}
+
+#map { 
+    height: 450px;
+    width: 500px;
+    border-radius: 12px;
+}
+
+.mapa{
+    width: 100%;
+}
+
+.mapa-config{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+
+}
