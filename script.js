@@ -178,7 +178,6 @@ if (md.MobileDetect()) {
 
 if (WURFL.form_factor === 'Desktop') {
     
-    console.log('pc')
     
     interacao.innerHTML = WURFL.form_factor
 
@@ -266,7 +265,6 @@ if (WURFL.form_factor === 'Desktop') {
 
 
 } else {
-    console.log('mobile')
     interacao.innerHTML = WURFL.form_factor
     function sucess(pos) {
         console.log(pos.coords.latitude, pos.coords.longitude);
