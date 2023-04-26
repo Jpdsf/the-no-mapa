@@ -176,7 +176,7 @@ if (md.MobileDetect()) {
 
 }*/
 
-if (WURFL.is_mobile === true && WURFL.form_factor === 'Smartphone') {
+if (WURFL.form_factor === 'Smartphone') {
     console.log('mobile')
     interacao.innerHTML = WURFL.form_factor
     function sucess(pos) {
