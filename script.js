@@ -1,11 +1,12 @@
 let map;
+let interacao = document.getElementById('interacao')
 
 function sucess(pos) {
     console.log(pos.coords.latitude, pos.coords.longitude);
 
     map = L.map('map').setView([pos.coords.latitude, pos.coords.longitude], 15);
 
-    
+
 
 
     //L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -16,33 +17,53 @@ function sucess(pos) {
         iconUrl: 'img/violao-icon-sem-fundo.png',
 
         iconSize: [30, 45], // size of the icon
-        iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
-        popupAnchor:  [-3, -76]
-        
+        iconAnchor: [22, 94], // point of the icon which will correspond to marker's location
+        popupAnchor: [-3, -76]
+
     });
 
     let pessoaIcon = L.icon({
         iconUrl: 'img/imgbin-walter-white-jesse-pinkma-sem-fundo.png',
 
         iconSize: [30, 45], // size of the icon
-        iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
-        popupAnchor:  [-3, -76]
-        
+        iconAnchor: [22, 94], // point of the icon which will correspond to marker's location
+        popupAnchor: [-3, -76]
+
     });
 
 
     //L.marker([pos.coords.latitude, pos.coords.longitude], {icon: greenIcon}).addTo(map)
 
-    L.marker([pos.coords.latitude, pos.coords.longitude], {icon: pessoaIcon}).addTo(map)
+    let localizacaoPessoa = L.marker([pos.coords.latitude, pos.coords.longitude], { icon: pessoaIcon }).addTo(map)
         .bindPopup('Sua localização')
         .openPopup();
 
-    L.marker([-5.085214764199299, -42.790233716834045]).addTo(map)
+    let exemploTeresinaShopping = L.marker([-5.085214764199299, -42.790233716834045]).addTo(map)
         .bindPopup('TERESINA SHOPPING');
 
-    L.marker([-5.0686491, -42.7937858], {icon: violaoIcon}).addTo(map)
+    let exemploRioPoty = L.marker([-5.0686491, -42.7937858], { icon: violaoIcon }).addTo(map)
         .bindPopup('SHOPPING RIO POTY');
 
+    
+    exemploRioPoty.on('click', function () {
+        interacao.innerHTML = `<div class="interacao-config">
+        <label for="floatingInput">Nome:</label> Rio Poty Music
+        <br>
+        <label for="floatingInput">Instagran:</label> <a href="">Rio Poty Shopping</a>
+        <br>
+        <label for="floatingInput">O que eles fazem:</label> Ensinam a tocar violão
+        <br>
+        <label for="floatingInput">Localização:</label> Rua Inventei agora 
+        <br>
+        <label for="floatingInput">Dias de funcionamento:</label> Sábado
+      </div>`
+
+    });
+
+    localizacaoPessoa.on('click', function () {
+        interacao.innerHTML = ``
+
+    });
 
 
 

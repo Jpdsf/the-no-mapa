@@ -5,6 +5,10 @@ body{
     
 }
 
+a{
+    text-decoration: none;
+}
+
 .nav-cor{
     background-color: #334258;
 }
@@ -38,4 +42,30 @@ body{
     justify-content: center; 
     align-items: center;
 
+}
+
+.interacao{
+    font-size: 20px;
+    width: 100%;
+}
+
+.interacao-config{
+    color: white;
+    width: 80%;
+    height: auto;
+    background-color: #334258;
+    margin: 0 auto;
+    border: 2px solid #334258;
+    border-radius: 7px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.interacao-config label{
+    color: #699008;
 }
