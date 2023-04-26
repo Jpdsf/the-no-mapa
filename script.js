@@ -2,8 +2,10 @@ let map;
 let interacao = document.getElementById('interacao')
 let interacaoPc = document.getElementById('interacao-pc')
 
-if (device.mobile()) {
-    console.log('mobile')
+
+var md = new MobileDetect(window.navigator.userAgent);
+if (md.mobile()) {
+    console.log('Mobile')
     function sucess(pos) {
         console.log(pos.coords.latitude, pos.coords.longitude);
 
