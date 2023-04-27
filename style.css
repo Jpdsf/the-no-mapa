@@ -2,8 +2,12 @@ body{
     font-family: 'Garamond';
     font-size: 15px;
     font-weight: bold;
+    background-image: url('img/teresina-vista-aeria-mais-clara.png');
+    background-size:100%;
+    background-size: cover;
     
 }
+ 
 
 a{
     text-decoration: none;
