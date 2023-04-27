@@ -4,7 +4,14 @@ body{
     font-weight: bold;
     height: auto;
     color: #699008;
+    background-image: url('../img/teresina-vista-aeria-mais-clara.png');
+    background-size:100%;
+    background-size: cover;
 
+}
+
+h1{
+  font-size: 50px;
 }
 
 .nav-cor{
@@ -48,6 +55,8 @@ body{
     border-radius: 20px;
     border-color: transparent;
     padding-left: 20px;
+    color: #699008;
+
 }
 
 .btn {
@@ -76,5 +85,8 @@ body{
   font-weight: 100;
 }
 
+select{
+  border-radius: 105px;
+}
 
 

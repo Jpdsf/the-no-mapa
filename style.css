@@ -4,12 +4,12 @@ body{
     font-weight: bold;
     background-image: url('img/teresina-vista-aeria-mais-clara.png');
     background-size:100%;
-    background-size: cover;
     
 }
  
 
 a{
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -62,6 +62,7 @@ a{
 }
 
 .interacao-config{
+    position: relative;
     color: white;
     width: 100%;
     height: auto;
@@ -75,9 +76,30 @@ a{
     padding-right: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
+    font-family: 'DINPro-Medium', sans-serif;
     
 }
 
 .interacao-config label{
     color: #699008;
+}
+
+.fechar{
+    position: absolute; /* Define o container como posição absoluta */
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    border: 1px solid #699008;
+    border-radius: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 30px;
+    color: white;
+    background: #699008;
+}
+
+.fechar button{
+    background: none;
+    border: none;
+    color: white;
 }

@@ -1,9 +1,11 @@
 let map;
 let interacao = document.getElementById('interacao')
 let interacaoPc = document.getElementById('interacao-pc')
+let fechar = document.getElementById('fechar')
+
 
 if (WURFL.form_factor === 'Desktop') {
-    
+
     function sucess(pos) {
         console.log(pos.coords.latitude, pos.coords.longitude);
 
@@ -16,14 +18,14 @@ if (WURFL.form_factor === 'Desktop') {
         let violaoIcon = L.icon({
             iconUrl: 'img/violao-icon-sem-fundo.png',
 
-            iconSize: [30, 45], // size of the icon
+            iconSize: [40, 55], // size of the icon
 
         });
 
         let pessoaIcon = L.icon({
             iconUrl: 'img/imgbin-walter-white-jesse-pinkma-sem-fundo.png',
 
-            iconSize: [30, 45], // size of the icon
+            iconSize: [40, 55] // size of the icon
 
         });
         //L.marker([pos.coords.latitude, pos.coords.longitude], {icon: greenIcon}).addTo(map)
@@ -40,22 +42,26 @@ if (WURFL.form_factor === 'Desktop') {
 
         exemploRioPoty.on('click', function () {
             interacaoPc.innerHTML = `<div class="interacao-config">
-        <label for="floatingInput">Nome:</label> Rio Poty Music
+
+        <label for="floatingInput">NOME:</label> Rio Poty Music
         <br>
-        <label for="floatingInput">Instagran:</label> <a href="">Rio Poty Shopping</a>
+        <label for="floatingInput">INSTAGRAM:</label> <a href="">Rio Poty Shopping</a>
         <br>
-        <label for="floatingInput">O que eles fazem:</label> Ensinam a tocar violão
+        <label for="floatingInput">O QUE ELES FAZEM:</label> Ensinam a tocar violão
         <br>
-        <label for="floatingInput">Localização:</label> Rua Inventei agora 
+        <label for="floatingInput">LOCALIZAÇÃ:</label> Rua Inventei agora 
         <br>
-        <label for="floatingInput">Dias de funcionamento:</label> Sábado
-      </div>`
+        <label for="floatingInput">DIAS DE FUNCIONAMENTO:</label> Sábado
+      </div>
+      `
 
         });
 
         localizacaoPessoa.on('click', function () {
             interacaoPc.innerHTML = ``
         });
+
+
     }
 
     function error(err) {
@@ -82,7 +88,7 @@ if (WURFL.form_factor === 'Desktop') {
         let violaoIcon = L.icon({
             iconUrl: 'img/violao-icon-sem-fundo.png',
 
-            iconSize: [30, 45], // size of the icon
+            iconSize: [40, 55], // size of the icon
 
 
         });
@@ -90,7 +96,7 @@ if (WURFL.form_factor === 'Desktop') {
         let pessoaIcon = L.icon({
             iconUrl: 'img/imgbin-walter-white-jesse-pinkma-sem-fundo.png',
 
-            iconSize: [30, 45], // size of the icon
+            iconSize: [40, 55] // size of the icon
 
         });        //L.marker([pos.coords.latitude, pos.coords.longitude], {icon: greenIcon}).addTo(map)
         let localizacaoPessoa = L.marker([pos.coords.latitude, pos.coords.longitude], { icon: pessoaIcon }).addTo(map)
@@ -106,15 +112,16 @@ if (WURFL.form_factor === 'Desktop') {
 
         exemploRioPoty.on('click', function () {
             interacao.innerHTML = `<div class="interacao-config">
-        <label for="floatingInput">Nome:</label> Rio Poty Music
+
+        <label for="floatingInput">NOME:</label> Rio Poty Music
         <br>
-        <label for="floatingInput">Instagran:</label> <a href="">Rio Poty Shopping</a>
+        <label for="floatingInput">INSTAGRAM:</label> <a href="">Rio Poty Shopping</a>
         <br>
-        <label for="floatingInput">O que eles fazem:</label> Ensinam a tocar violão
+        <label for="floatingInput">O QUE ELES FAZEM:</label> Ensinam a tocar violão
         <br>
-        <label for="floatingInput">Localização:</label> Rua Inventei agora 
+        <label for="floatingInput">LOCALIZAÇÃ:</label> Rua Inventei agora 
         <br>
-        <label for="floatingInput">Dias de funcionamento:</label> Sábado
+        <label for="floatingInput">DIAS DE FUNCIONAMENTO:</label> Sábado
       </div>`
 
         });
@@ -122,6 +129,8 @@ if (WURFL.form_factor === 'Desktop') {
         localizacaoPessoa.on('click', function () {
             interacao.innerHTML = ``
         });
+
+
     }
     function error(err) {
         console.log(err)
