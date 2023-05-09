@@ -43,16 +43,19 @@ if (WURFL.form_factor === 'Desktop') {
         exemploRioPoty.on('click', function () {
             interacaoPc.innerHTML = `<div class="interacao-config">
 
-        <label for="floatingInput">NOME:</label> Rio Poty Music
-        <br>
-        <label for="floatingInput">INSTAGRAM:</label> <a href="">Rio Poty Shopping</a>
-        <br>
-        <label for="floatingInput">O QUE ELES FAZEM:</label> Ensinam a tocar violão
-        <br>
-        <label for="floatingInput">LOCALIZAÇÃ:</label> Rua Inventei agora 
-        <br>
-        <label for="floatingInput">DIAS DE FUNCIONAMENTO:</label> Sábado
-      </div>
+            <label for="floatingInput">NOME:</label> Rio Poty Music
+            <br>
+            <label for="floatingInput">INSTAGRAM:</label> <a href="">Rio Poty Shopping</a>
+            <br>
+            <label for="floatingInput">O QUE ELES FAZEM:</label> Ensinam a tocar violão
+            <br>
+            <label for="floatingInput">LOCALIZAÇÃ:</label> Rua Inventei agora 
+            <br>
+            <label for="floatingInput">DIAS DE FUNCIONAMENTO:</label> Sábado
+            <br>
+            <br>
+            <div class='text-center'><a id="cadastro" href="formularios/cadastro-user.html">CADASTRE-SE</a></div>
+          </div>
       `
 
         });
@@ -111,18 +114,23 @@ if (WURFL.form_factor === 'Desktop') {
 
 
         exemploRioPoty.on('click', function () {
-            interacao.innerHTML = `<div class="interacao-config">
+            interacao.innerHTML = `
+            <div class="interacao-config">
 
-        <label for="floatingInput">NOME:</label> Rio Poty Music
-        <br>
-        <label for="floatingInput">INSTAGRAM:</label> <a href="">Rio Poty Shopping</a>
-        <br>
-        <label for="floatingInput">O QUE ELES FAZEM:</label> Ensinam a tocar violão
-        <br>
-        <label for="floatingInput">LOCALIZAÇÃ:</label> Rua Inventei agora 
-        <br>
-        <label for="floatingInput">DIAS DE FUNCIONAMENTO:</label> Sábado
-      </div>`
+            <label for="floatingInput">NOME:</label> Rio Poty Music
+            <br>
+            <label for="floatingInput">INSTAGRAM:</label> <a href="">Rio Poty Shopping</a>
+            <br>
+            <label for="floatingInput">O QUE ELES FAZEM:</label> Ensinam a tocar violão
+            <br>
+            <label for="floatingInput">LOCALIZAÇÃ:</label> Rua Inventei agora 
+            <br>
+            <label for="floatingInput">DIAS DE FUNCIONAMENTO:</label> Sábado
+            <br>
+            <br>
+            <div class='text-center'><a id="cadastro" href="formularios/cadastro-user.html">CADASTRE-SE</a></div>
+          </div>
+          `
 
         });
 
