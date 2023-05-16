@@ -14,7 +14,8 @@ a{
 }
 
 .nav-cor{
-    background-color: #334258;
+    background-color:  #383839;
+    background-color:  #202529;
 }
 .cabecalho{
     width: 100%;
@@ -28,19 +29,23 @@ a{
 }
 
 .logo{
-    width: 150px;
+    width: 85px;
 }
+
 
 #map { 
     height: 450px;
     width: 500px;
     border-radius: 12px;
     margin-left: 10px;
-    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    
 }
 
 .mapa{
     width: 100%;
+    
 }
 
 .mapa-config{
@@ -66,9 +71,9 @@ a{
     color: white;
     width: 100%;
     height: auto;
-    background-color: #334258;
+    background-color: #202529;
     margin: 0 auto;
-    border: 2px solid #334258;
+    border: 2px solid #202529;
     border-radius: 7px;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -82,6 +87,10 @@ a{
 
 .interacao-config label{
     color: #699008;
+}
+
+.interacao-config img{
+    width: 15px;
 }
 
 .fechar{
@@ -106,4 +115,26 @@ a{
 
 #cadastro{
     color: #699008;
+}
+
+
+
+
+.informacoes{
+
+    width: 100%;
+
+}
+
+.informacoes-config{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    width: 80%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }

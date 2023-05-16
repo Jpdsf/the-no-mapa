@@ -6,7 +6,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TheNoMapa</title>
-  <link rel="shortcut icon" href="img/logo_projeto_transparente.png" type="image/png">
 
 
   <link href="https://fonts.cdnfonts.com/css/dinpro-medium" rel="stylesheet">
@@ -17,6 +16,8 @@
   <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
     integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
   <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="img/logo_projeto_transparente.ico" type="image/png">
+
   <script src="//wurfl.io/wurfl.js"></script>
 </head>
 
@@ -24,7 +25,7 @@
 
   <nav class="navbar navbar-dark nav-cor">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="img/logo-the-no-mapa.png" class="logo" alt=""></a>
+      <a class="navbar-brand" href="#"><img src="img/logo_projeto_transparente.png" class="logo" alt=""></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
         aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -53,11 +54,10 @@
                 ENTRE EM CONTATO COM A GENTE
               </a>
               <ul class="dropdown-menu dropdown-menu-dark">
-                <li><a class="dropdown-item" href="formularios/cadastro-user.html">SE CADASTRAR EM UM PROGRAMA</a></li>
                 <li><a class="dropdown-item" href="formularios/cadastro-programa.html">CADASTRAR UM PROGRAMA</a></li>
               </ul>
             <li class="nav-item">
-              <a class="nav-link" href="#">SOBRE NÓS</a>
+              <a class="nav-link" href="sobre-nos.html">SOBRE NÓS</a>
             </li>
             </li>
           </ul>
@@ -67,22 +67,29 @@
   </nav>
 
 
-  <div class="mapa">
-    <br>
-    <div class="mapa-config">
-      <div id="map"></div>
-      <div class="interacao-pc" id="interacao-pc">
+  <div class="corpo-map">
+    <div class="mapa">
+      <br>
+      <div class="mapa-config">
+        <div id="map"></div>
+        <div class="interacao-pc" id="interacao-pc">
+        </div>
       </div>
+
+    </div>
+
+    <div class="interacao" id="interacao">
     </div>
 
   </div>
 
-  <div class="interacao" id="interacao">
+
+    </form>
   </div>
 
 
 
-  
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
     crossorigin="anonymous"></script>

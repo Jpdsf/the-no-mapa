@@ -1,4 +1,5 @@
 let map;
+let mapa = document.getElementById('mapa')
 let interacao = document.getElementById('interacao')
 let interacaoPc = document.getElementById('interacao-pc')
 let fechar = document.getElementById('fechar')
@@ -54,10 +55,17 @@ if (WURFL.form_factor === 'Desktop') {
             <label for="floatingInput">DIAS DE FUNCIONAMENTO:</label> Sábado
             <br>
             <br>
-            <div class='text-center'><a id="cadastro" href="formularios/cadastro-user.html">CADASTRE-SE</a></div>
+            <div class="text-center">
+              <label for="floatingInput">CADASTRE-SE:</label>
+              <br>
+              <a id="cadastro" href="formularios/cadastro-user.html"><img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="" srcset="">Instagram</a>
+        
+            </div>
+        
+            
           </div>
       `
-
+        
         });
 
         localizacaoPessoa.on('click', function () {
@@ -117,21 +125,28 @@ if (WURFL.form_factor === 'Desktop') {
             interacao.innerHTML = `
             <div class="interacao-config">
 
-            <label for="floatingInput">NOME:</label> Rio Poty Music
-            <br>
-            <label for="floatingInput">INSTAGRAM:</label> <a href="">Rio Poty Shopping</a>
-            <br>
-            <label for="floatingInput">O QUE ELES FAZEM:</label> Ensinam a tocar violão
-            <br>
-            <label for="floatingInput">LOCALIZAÇÃ:</label> Rua Inventei agora 
-            <br>
-            <label for="floatingInput">DIAS DE FUNCIONAMENTO:</label> Sábado
-            <br>
-            <br>
-            <div class='text-center'><a id="cadastro" href="formularios/cadastro-user.html">CADASTRE-SE</a></div>
-          </div>
-          `
+    <label for="floatingInput">NOME:</label> Rio Poty Music
+    <br>
+    <label for="floatingInput">INSTAGRAM:</label> <a href="">Rio Poty Shopping</a>
+    <br>
+    <label for="floatingInput">O QUE ELES FAZEM:</label> Ensinam a tocar violão
+    <br>
+    <label for="floatingInput">LOCALIZAÇÃ:</label> Rua Inventei agora 
+    <br>
+    <label for="floatingInput">DIAS DE FUNCIONAMENTO:</label> Sábado
+    <br>
+    <br>
+    <div class="text-center">
+      <label for="floatingInput">CADASTRE-SE:</label>
+      <br>
+      <a id="cadastro" href="formularios/cadastro-user.html"><img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="" srcset="">Instagram</a>
 
+    </div>
+
+    
+  </div>
+          `
+            
         });
 
         localizacaoPessoa.on('click', function () {

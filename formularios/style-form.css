@@ -15,11 +15,11 @@ h1{
 }
 
 .nav-cor{
-    background-color: #334258;
+  background-color: #202529;
 }
 
 .logo{
-    width: 150px;
+    width: 85px;
 }
 
 
@@ -31,9 +31,9 @@ h1{
 .form-config{
     width: 80%;
     height: auto;
-    background-color: #334258;
+    background-color: #202529;
     margin: 0 auto;
-    border: 2px solid #334258;
+    border: 2px solid #202529;
     border-radius: 7px;
     padding-top: 30px;
     padding-bottom: 30px;

@@ -5,24 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form>
-        <label>
-          <input type="radio" name="filter" value="all" checked>
-          All markers
-        </label>
-        <br>
-        <label>
-          <input type="radio" name="filter" value="london">
-          London markers
-        </label>
-        <br>
-        <label>
-          <input type="radio" name="filter" value="paris">
-          Paris markers
-        </label>
-      </form>
+  <div id="teste">
+    <div class="interacao-config">
+      <button class="fechar" id="fechar">X</button>
+      <label for="floatingInput">NOME:</label> Rio Poty Music
+      <br>
+      <label for="floatingInput">INSTAGRAM:</label> <a href="">Rio Poty Shopping</a>
+      <br>
+      <label for="floatingInput">O QUE ELES FAZEM:</label> Ensinam a tocar violão
+      <br>
+      <label for="floatingInput">LOCALIZAÇÃ:</label> Rua Inventei agora 
+      <br>
+      <label for="floatingInput">DIAS DE FUNCIONAMENTO:</label> Sábado
+      <br>
+      <br>
+      <div class='text-center'><a id="cadastro" href="formularios/cadastro-user.html">CADASTRE-SE</a></div>
+    </div>
+  </div>
+
+  <script>
+    const teste = document.getElementById('teste')
+    const fechar = document.getElementById('fechar')
+    let interacaoPc = document.getElementById('interacao-pc')
+
+    fechar.addEventListener('click', function(){
+      teste.removeChild(interacaoPc);
+    });
+
+  </script>
       
 </body>
 </html>
