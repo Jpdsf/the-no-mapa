@@ -14,8 +14,8 @@ a{
 }
 
 .nav-cor{
-    background-color:  #383839;
-    background-color:  #202529;
+    /*background-color:  #383839; cor de teste */
+     background-color:  #202529;
 }
 .cabecalho{
     width: 100%;
@@ -23,7 +23,6 @@ a{
 }
 
 .cabecalho-config{
-
     padding-bottom: 20px;
     
 }
@@ -31,7 +30,6 @@ a{
 .logo{
     width: 85px;
 }
-
 
 #map { 
     height: 450px;
@@ -93,48 +91,54 @@ a{
     width: 15px;
 }
 
-.fechar{
-    position: absolute; /* Define o container como posição absoluta */
-    top: 20px;
-    right: 20px;
-    cursor: pointer;
-    border: 1px solid #699008;
-    border-radius: 12px;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-size: 30px;
-    color: white;
-    background: #699008;
-}
-
-.fechar button{
-    background: none;
-    border: none;
-    color: white;
-}
-
-#cadastro{
+.redes-contato{
+    margin-top: 5px;
+    padding: 5px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
     color: #699008;
+    background-color: #ffffff;
+    width: auto;
 }
 
-
-
+/*Informações página - Sobre Nos */
 
 .informacoes{
-
     width: 100%;
-
+    margin-top: 100px;
 }
 
 .informacoes-config{
-    display: flex; 
-    justify-content: center; 
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
     align-items: center;
-    width: 80%;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    justify-content: center;
+    display: flex;
+    text-align: justify;
+    color: #fff;
+    background: #202529;
+    font-size: 20px;
+    border: 1px solid #202529;
+    border-radius: 12px;
+    text-align: left;
+}
+
+.informacoes-config h1{
+    color: #699008;
+    text-align: center;
+}
+
+.texto-sobre{
+    padding-left: 10px;
+    text-align: left;
+    /*utilizar caso queira alterar a */
+}
+
+.img-sobre{
+    background: #202529;
+}
+
+.img-sobre img{
+    width: 200px;
 }

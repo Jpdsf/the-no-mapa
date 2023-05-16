@@ -55,14 +55,14 @@ if (WURFL.form_factor === 'Desktop') {
             <label for="floatingInput">DIAS DE FUNCIONAMENTO:</label> Sábado
             <br>
             <br>
-            <div class="text-center">
-              <label for="floatingInput">CADASTRE-SE:</label>
+            <div class="text-center" >
+              <label for="floatingInput" style="color: white; margin-bottom: 10px" >CADASTRE-SE:</label>
               <br>
-              <a id="cadastro" href="formularios/cadastro-user.html"><img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="" srcset="">Instagram</a>
+              <div>
+                <div><a class="cadastro redes-contato" href="formularios/cadastro-user.html"><img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="" srcset="">Instagram</a></div>
+              </div>
         
             </div>
-        
-            
           </div>
       `
         
@@ -136,14 +136,13 @@ if (WURFL.form_factor === 'Desktop') {
     <label for="floatingInput">DIAS DE FUNCIONAMENTO:</label> Sábado
     <br>
     <br>
-    <div class="text-center">
-      <label for="floatingInput">CADASTRE-SE:</label>
+    <div class="text-center" >
+      <label for="floatingInput" style="color: white; margin-bottom: 10px" >CADASTRE-SE:</label>
       <br>
-      <a id="cadastro" href="formularios/cadastro-user.html"><img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="" srcset="">Instagram</a>
-
+      <div>
+        <div><a class="cadastro redes-contato" href="formularios/cadastro-user.html"><img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="" srcset="">Instagram</a></div>
+      </div>
     </div>
-
-    
   </div>
           `
             
