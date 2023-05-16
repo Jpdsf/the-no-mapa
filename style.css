@@ -108,6 +108,11 @@ a{
     margin-top: 90px;
 }
 
+.informacoes{
+    width: 100%;
+    margin-top: 20px;
+}
+
 .informacoes-config{
     width: 75%;
     height: auto;
@@ -133,11 +138,21 @@ a{
     /*utilizar caso queira alterar a */
 }
 
+.texto-sobre-cell{
+    font-size: 25px;
+    text-align: justify;
+    /*utilizar caso queira alterar a */
+}
+
 .sobre{
     display: flex;
 }
 
 .img-sobre{
+    background: #202529;
+}
+
+.img-sobre-cell{
     background: #202529;
 }
 
