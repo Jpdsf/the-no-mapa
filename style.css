@@ -109,19 +109,16 @@ a{
 }
 
 .informacoes-config{
-    width: 50%;
-    height: auto;
-    margin: 0 auto;
-    align-items: center;
-    justify-content: center;
+    width: 90%;
     display: flex;
-    text-align: justify;
+    height: auto;
+    padding: 20px;
+    margin: 0 auto;
     color: #fff;
     background: #202529;
     font-size: 20px;
     border: 1px solid #202529;
     border-radius: 12px;
-    text-align: left;
 }
 
 .informacoes-config h1{
@@ -131,7 +128,7 @@ a{
 
 .texto-sobre{
     padding-left: 10px;
-    text-align: left;
+    text-align: justify;
     /*utilizar caso queira alterar a */
 }
 
