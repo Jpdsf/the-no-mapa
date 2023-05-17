@@ -12,24 +12,19 @@ if (WURFL.form_factor === 'Desktop') {
 
         map = L.map('map').setView([pos.coords.latitude, pos.coords.longitude], 15);
 
-        //L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
         L.tileLayer('https://api.mapbox.com/styles/v1/jpdsafg/clgdwcvcq00pz01ppsrbhc75j/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoianBkc2FmZyIsImEiOiJjbGdjeWhhYjEwMzlqM2VybmlhemJiczB4In0.XmLwqlWabpGKax8ZrFqhqA', {
-            //attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         }).addTo(map);
         let violaoIcon = L.icon({
             iconUrl: 'img/violao-icon-sem-fundo.png',
-
-            iconSize: [40, 55], // size of the icon
+            iconSize: [40, 55]
 
         });
 
         let pessoaIcon = L.icon({
             iconUrl: 'img/imgbin-walter-white-jesse-pinkma-sem-fundo.png',
-
-            iconSize: [40, 55] // size of the icon
+            iconSize: [40, 55]
 
         });
-        //L.marker([pos.coords.latitude, pos.coords.longitude], {icon: greenIcon}).addTo(map)
 
         let localizacaoPessoa = L.marker([pos.coords.latitude, pos.coords.longitude], { icon: pessoaIcon }).addTo(map)
             .bindPopup('Sua localização')
@@ -44,35 +39,11 @@ if (WURFL.form_factor === 'Desktop') {
         let escolaMusicaDonaGal = L.marker([-5.066833962379359, -42.82844716931162], { icon: violaoIcon }).addTo(map)
         .bindPopup('ESCOLA de música DONA GAL');
 
+        let orgPontoDeEquilibrio = L.marker([-5.095850538207881, -42.81286937116396]).addTo(map)
+        .bindPopup('Org Ponto De Equilibrio');
 
-        /*exemploRioPoty.on('click', function () {
-            interacaoPc.innerHTML = `<div class="interacao-config">
-
-            <label for="floatingInput">NOME:</label> Rio Poty Music
-            <br>
-            <label for="floatingInput">INSTAGRAM:</label> <a href="">Rio Poty Shopping</a>
-            <br>
-            <label for="floatingInput">O QUE ELES FAZEM:</label> Ensinam a tocar violão
-            <br>
-            <label for="floatingInput">LOCALIZAÇÃ:</label> Rua Inventei agora 
-            <br>
-            <label for="floatingInput">DIAS DE FUNCIONAMENTO:</label> Sábado
-            <br>
-            <br>
-            <div class="text-center" >
-              <label for="floatingInput" style="color: white; margin-bottom: 10px" >CADASTRE-SE:</label>
-              <br>
-              <div>
-                <div><a class="cadastro redes-contato" href="formularios/cadastro-user.html"><img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="" srcset="">Instagram</a></div>
-              </div>
-        
-            </div>
-          </div>
-      `
-
-        });*/
-
-
+        let aJMT = L.marker([-5.141800,-42.788900]).addTo(map)
+        .bindPopup('Org Ponto De Equilibrio');
 
         musicaParaTodos.on('click', function () {
             interacaoPc.innerHTML = `<div class="interacao-config">
@@ -139,11 +110,55 @@ if (WURFL.form_factor === 'Desktop') {
           </div>`
         })
 
+        orgPontoDeEquilibrio.on('click', function(){
+            interacaoPc.innerHTML = `<div class="interacao-config">
+
+            <label for="floatingInput">NOME:</label> Org Ponto de Equilíbrio
+            <br>
+            <label for="floatingInput">O QUE ELES FAZEM:</label> O Grupo Equilíbrio é uma plataforma onde os artistas podem estudar, pesquisar, praticar e principalmente produzir sua arte, tornando-se referência da área no Estado do Piauí. 
+            <br>
+            <label for="floatingInput">LOCALIZAÇÃ:</label> Av. José dos Santos e Silva, 1085 - Centro (Sul), Teresina - PI, 64001-300
+            <br>
+            <br>
+            <div class="text-center" >
+              <label for="floatingInput" style="color: white; margin-bottom: 10px" >ENTRE EM CONTATO:</label>
+              <br>
+              <div>
+                <div><a class="cadastro redes-contato" href="https://www.instagram.com/org_pontodeequilibrio/"><img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="" srcset="">Instagram</a></div>
+                <br>
+                <div><a class="cadastro redes-contato" href="https://www.opeq.com.br/?fbclid=PAAaZs6s3lmsEVr0usRd1UHtVCQ8eCGNfQoqVKyoOgu8AXsaq89CTj7Jeo5Oc">Site</a></div>
+              </div>
+            </div>
+          </div>`
+        })
+
+        aJMT.on('click', function(){
+            interacaoPc.innerHTML = `<div class="interacao-config">
+
+            <label for="floatingInput">NOME:</label> Associação de juventude AJMT
+            <br>
+            <label for="floatingInput">O QUE ELES FAZEM:</label>
+            <br>
+            <label for="floatingInput">LOCALIZAÇÃ:</label> Av. Mal. Rondon - Parque Piaui, Teresina - PI
+            <br>
+            <br>
+            <div class="text-center" >
+              <label for="floatingInput" style="color: white; margin-bottom: 10px" >ENTRE EM CONTATO:</label>
+              <br>
+              <div>
+                <div><a class="cadastro redes-contato" href="https://instagram.com/associadejuventude"><img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="" srcset="">Instagram</a></div>
+                <br>
+                <div><a class="cadastro redes-contato" href=""><img src="https://cdn-icons-png.flaticon.com/512/281/281769.png" alt="" srcset=""> Gmail: ajmt2021associacao@gmail.com</a></div>
+                <br>
+                <div><a class="cadastro redes-contato" href="https://l.wl.co/l?u=https%3A%2F%2Fforms.gle%2FqS1WgG68sK4cBZCF6"><img src="https://cdn-icons-png.flaticon.com/512/2875/2875409.png">Formulário de inscrição </a></div>
+              </div>
+            </div>
+          </div>`
+        })
+
         localizacaoPessoa.on('click', function () {
             interacaoPc.innerHTML = ``
         });
-
-
 
     }
 
@@ -164,28 +179,21 @@ if (WURFL.form_factor === 'Desktop') {
 
         map = L.map('map').setView([pos.coords.latitude, pos.coords.longitude], 15);
 
-        //L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
         L.tileLayer('https://api.mapbox.com/styles/v1/jpdsafg/clgdwcvcq00pz01ppsrbhc75j/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoianBkc2FmZyIsImEiOiJjbGdjeWhhYjEwMzlqM2VybmlhemJiczB4In0.XmLwqlWabpGKax8ZrFqhqA', {
-            //attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         }).addTo(map);
         let violaoIcon = L.icon({
             iconUrl: 'img/violao-icon-sem-fundo.png',
-
-            iconSize: [40, 55], // size of the icon
-
-
+            iconSize: [40, 55]
         });
 
         let pessoaIcon = L.icon({
             iconUrl: 'img/imgbin-walter-white-jesse-pinkma-sem-fundo.png',
+            iconSize: [40, 55] 
+        });   
 
-            iconSize: [40, 55] // size of the icon
-
-        });        //L.marker([pos.coords.latitude, pos.coords.longitude], {icon: greenIcon}).addTo(map)
         let localizacaoPessoa = L.marker([pos.coords.latitude, pos.coords.longitude], { icon: pessoaIcon }).addTo(map)
             .bindPopup('Sua localização')
             .openPopup();
-
 
         let musicaParaTodos = L.marker([-5.080293661150606, -42.77629429380992], { icon: violaoIcon }).addTo(map)
         .bindPopup('MÚSICA PARA TODOS');
@@ -196,35 +204,11 @@ if (WURFL.form_factor === 'Desktop') {
         let escolaMusicaDonaGal = L.marker([-5.066833962379359, -42.82844716931162], { icon: violaoIcon }).addTo(map)
         .bindPopup('ESCOLA de música DONA GAL');
 
+        let orgPontoDeEquilibrio = L.marker([-5.095850538207881, -42.81286937116396]).addTo(map)
+        .bindPopup('Org Ponto De Equilibrio');
 
-        /*exemploRioPoty.on('click', function () {
-            interacaoPc.innerHTML = `<div class="interacao-config">
-
-            <label for="floatingInput">NOME:</label> Rio Poty Music
-            <br>
-            <label for="floatingInput">INSTAGRAM:</label> <a href="">Rio Poty Shopping</a>
-            <br>
-            <label for="floatingInput">O QUE ELES FAZEM:</label> Ensinam a tocar violão
-            <br>
-            <label for="floatingInput">LOCALIZAÇÃ:</label> Rua Inventei agora 
-            <br>
-            <label for="floatingInput">DIAS DE FUNCIONAMENTO:</label> Sábado
-            <br>
-            <br>
-            <div class="text-center" >
-              <label for="floatingInput" style="color: white; margin-bottom: 10px" >CADASTRE-SE:</label>
-              <br>
-              <div>
-                <div><a class="cadastro redes-contato" href="formularios/cadastro-user.html"><img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="" srcset="">Instagram</a></div>
-              </div>
-        
-            </div>
-          </div>
-      `
-
-        });*/
-
-
+        let aJMT = L.marker([-5.141800,-42.788900]).addTo(map)
+        .bindPopup('Org Ponto De Equilibrio');
 
         musicaParaTodos.on('click', function () {
             interacao.innerHTML = `<div class="interacao-config">
@@ -286,6 +270,28 @@ if (WURFL.form_factor === 'Desktop') {
               <div>
                 <div><a class="cadastro redes-contato" href="https://instagram.com/donagalescolademusica"><img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="" srcset="">Instagram</a></div>
                 <br>
+              </div>
+            </div>
+          </div>`
+        })
+
+        orgPontoDeEquilibrio.on('click', function(){
+            interacao.innerHTML = `<div class="interacao-config">
+
+            <label for="floatingInput">NOME:</label> Org Ponto de Equilíbrio
+            <br>
+            <label for="floatingInput">O QUE ELES FAZEM:</label> O Grupo Equilíbrio é uma plataforma onde os artistas podem estudar, pesquisar, praticar e principalmente produzir sua arte, tornando-se referência da área no Estado do Piauí. 
+            <br>
+            <label for="floatingInput">LOCALIZAÇÃ:</label> Av. José dos Santos e Silva, 1085 - Centro (Sul), Teresina - PI, 64001-300
+            <br>
+            <br>
+            <div class="text-center" >
+              <label for="floatingInput" style="color: white; margin-bottom: 10px" >ENTRE EM CONTATO:</label>
+              <br>
+              <div>
+                <div><a class="cadastro redes-contato" href="https://www.instagram.com/org_pontodeequilibrio/"><img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="" srcset="">Instagram</a></div>
+                <br>
+                <div><a class="cadastro redes-contato" href="https://www.opeq.com.br/?fbclid=PAAaZs6s3lmsEVr0usRd1UHtVCQ8eCGNfQoqVKyoOgu8AXsaq89CTj7Jeo5Oc">Site</a></div>
               </div>
             </div>
           </div>`
