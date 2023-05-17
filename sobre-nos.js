@@ -35,7 +35,8 @@ if(WURFL.form_factor === 'Desktop'){
         </div>
     </div>
 </div>
-</div>`
+</div>
+<br><br><br>`
 
 
 
