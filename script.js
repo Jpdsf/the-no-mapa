@@ -12,7 +12,7 @@ if (WURFL.form_factor === 'Desktop') {
 
         map = L.map('map').setView([pos.coords.latitude, pos.coords.longitude], 15);
 
-        L.tileLayer('https://api.mapbox.com/styles/v1/jpdsafg/clgdwcvcq00pz01ppsrbhc75j/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoianBkc2FmZyIsImEiOiJjbGdjeWhhYjEwMzlqM2VybmlhemJiczB4In0.XmLwqlWabpGKax8ZrFqhqA', {
+        L.tileLayer('https://api.mapbox.com/styles/v1/jpdsafg/clhm3jnhq00qs01qsawcjcd7m/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoianBkc2FmZyIsImEiOiJjbGdjeWhhYjEwMzlqM2VybmlhemJiczB4In0.XmLwqlWabpGKax8ZrFqhqA', {
         }).addTo(map);
         let violaoIcon = L.icon({
             iconUrl: 'img/violao-icon-sem-fundo.png',
@@ -292,6 +292,30 @@ if (WURFL.form_factor === 'Desktop') {
                 <div><a class="cadastro redes-contato" href="https://www.instagram.com/org_pontodeequilibrio/"><img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="" srcset="">Instagram</a></div>
                 <br>
                 <div><a class="cadastro redes-contato" href="https://www.opeq.com.br/?fbclid=PAAaZs6s3lmsEVr0usRd1UHtVCQ8eCGNfQoqVKyoOgu8AXsaq89CTj7Jeo5Oc">Site</a></div>
+              </div>
+            </div>
+          </div>`
+        })
+
+        aJMT.on('click', function(){
+            interacao.innerHTML = `<div class="interacao-config">
+
+            <label for="floatingInput">NOME:</label> Associação de juventude AJMT
+            <br>
+            <label for="floatingInput">O QUE ELES FAZEM:</label>
+            <br>
+            <label for="floatingInput">LOCALIZAÇÃ:</label> Av. Mal. Rondon - Parque Piaui, Teresina - PI
+            <br>
+            <br>
+            <div class="text-center" >
+              <label for="floatingInput" style="color: white; margin-bottom: 10px" >ENTRE EM CONTATO:</label>
+              <br>
+              <div>
+                <div><a class="cadastro redes-contato" href="https://instagram.com/associadejuventude"><img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="" srcset="">Instagram</a></div>
+                <br>
+                <div><a class="cadastro redes-contato" href=""><img src="https://cdn-icons-png.flaticon.com/512/281/281769.png" alt="" srcset=""> Gmail: ajmt2021associacao@gmail.com</a></div>
+                <br>
+                <div><a class="cadastro redes-contato" href="https://l.wl.co/l?u=https%3A%2F%2Fforms.gle%2FqS1WgG68sK4cBZCF6"><img src="https://cdn-icons-png.flaticon.com/512/2875/2875409.png">Formulário de inscrição </a></div>
               </div>
             </div>
           </div>`
