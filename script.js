@@ -178,8 +178,9 @@ if (WURFL.form_factor === 'Desktop') {
         console.log(pos.coords.latitude, pos.coords.longitude);
 
         map = L.map('map').setView([pos.coords.latitude, pos.coords.longitude], 15);
-
-        L.tileLayer('https://api.mapbox.com/styles/v1/jpdsafg/clgdwcvcq00pz01ppsrbhc75j/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoianBkc2FmZyIsImEiOiJjbGdjeWhhYjEwMzlqM2VybmlhemJiczB4In0.XmLwqlWabpGKax8ZrFqhqA', {
+        
+        L.tileLayer('https://api.mapbox.com/styles/v1/jpdsafg/clhm3jnhq00qs01qsawcjcd7m/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoianBkc2FmZyIsImEiOiJjbGdjeWhhYjEwMzlqM2VybmlhemJiczB4In0.XmLwqlWabpGKax8ZrFqhqA', {
+        //L.tileLayer('https://api.mapbox.com/styles/v1/jpdsafg/clgdwcvcq00pz01ppsrbhc75j/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoianBkc2FmZyIsImEiOiJjbGdjeWhhYjEwMzlqM2VybmlhemJiczB4In0.XmLwqlWabpGKax8ZrFqhqA', {
         }).addTo(map);
         let violaoIcon = L.icon({
             iconUrl: 'img/violao-icon-sem-fundo.png',
