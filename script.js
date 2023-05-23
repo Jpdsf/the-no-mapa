@@ -21,8 +21,8 @@ if (WURFL.form_factor === 'Desktop') {
         });
 
         let pessoaIcon = L.icon({
-            iconUrl: 'img/imgbin-walter-white-jesse-pinkma-sem-fundo.png',
-            iconSize: [40, 55]
+            iconUrl: 'img/icon-alfinete.png',
+            iconSize: [45, 55]
 
         });
 
@@ -52,7 +52,7 @@ if (WURFL.form_factor === 'Desktop') {
             <br>
             <label for="floatingInput">O QUE ELES FAZEM:</label> É um movimento de Arte-Educação através da música. Fundado em maio de 1999, <br> atende prioritariamente crianças e adolescentes que estejam cursando o ensino básico, além de jovens, adultos e idosos do município de Teresina e cidades vizinhas.
             <br>
-            <label for="floatingInput">LOCALIZAÇÃ:</label> Av. Pedro Almeida, 145 - São Cristóvão, Teresina - PI, 64052-280
+            <label for="floatingInput">LOCALIZAÇÃO:</label> Av. Pedro Almeida, 145 - São Cristóvão, Teresina - PI, 64052-280
             <br>
             <br>
             <div class="text-center" >
@@ -75,7 +75,7 @@ if (WURFL.form_factor === 'Desktop') {
             <br>
             <label for="floatingInput">O QUE ELES FAZEM:</label> O Palácio da Música é um espaço mantido pela Prefeitura de Teresina, através da Fundação Municipal de Cultura Monsenhor Chaves.
             <br>
-            <label for="floatingInput">LOCALIZAÇÃ:</label> R. Santa Luzia, 1241 - Centro (Sul), Teresina - PI, 64001-400
+            <label for="floatingInput">LOCALIZAÇÃO:</label> R. Santa Luzia, 1241 - Centro (Sul), Teresina - PI, 64001-400
             <br>
             <br>
             <div class="text-center" >
@@ -96,7 +96,7 @@ if (WURFL.form_factor === 'Desktop') {
             <br>
             <label for="floatingInput">O QUE ELES FAZEM:</label> Escola Musical.
             <br>
-            <label for="floatingInput">LOCALIZAÇÃ:</label> Escola de música Dona Gal - R. Rui Barbosa, 3101 - São Joaquim, Teresina - PI, 64002-180
+            <label for="floatingInput">LOCALIZAÇÃO:</label> Escola de música Dona Gal - R. Rui Barbosa, 3101 - São Joaquim, Teresina - PI, 64002-180
             <br>
             <br>
             <div class="text-center" >
@@ -117,7 +117,7 @@ if (WURFL.form_factor === 'Desktop') {
             <br>
             <label for="floatingInput">O QUE ELES FAZEM:</label> O Grupo Equilíbrio é uma plataforma onde os artistas podem estudar, pesquisar, praticar e principalmente produzir sua arte, tornando-se referência da área no Estado do Piauí. 
             <br>
-            <label for="floatingInput">LOCALIZAÇÃ:</label> Av. José dos Santos e Silva, 1085 - Centro (Sul), Teresina - PI, 64001-300
+            <label for="floatingInput">LOCALIZAÇÃO:</label> Av. José dos Santos e Silva, 1085 - Centro (Sul), Teresina - PI, 64001-300
             <br>
             <br>
             <div class="text-center" >
@@ -139,7 +139,7 @@ if (WURFL.form_factor === 'Desktop') {
             <br>
             <label for="floatingInput">O QUE ELES FAZEM:</label>
             <br>
-            <label for="floatingInput">LOCALIZAÇÃ:</label> Av. Mal. Rondon - Parque Piaui, Teresina - PI
+            <label for="floatingInput">LOCALIZAÇÃO:</label> Av. Mal. Rondon - Parque Piaui, Teresina - PI
             <br>
             <br>
             <div class="text-center" >
@@ -218,7 +218,7 @@ if (WURFL.form_factor === 'Desktop') {
             <br>
             <label for="floatingInput">O QUE ELES FAZEM:</label> É um movimento de Arte-Educação através da música. Fundado em maio de 1999, <br> atende prioritariamente crianças e adolescentes que estejam cursando o ensino básico, além de jovens, adultos e idosos do município de Teresina e cidades vizinhas.
             <br>
-            <label for="floatingInput">LOCALIZAÇÃ:</label> Av. Pedro Almeida, 145 - São Cristóvão, Teresina - PI, 64052-280
+            <label for="floatingInput">LOCALIZAÇÃO:</label> Av. Pedro Almeida, 145 - São Cristóvão, Teresina - PI, 64052-280
             <br>
             <br>
             <div class="text-center" >
@@ -241,7 +241,7 @@ if (WURFL.form_factor === 'Desktop') {
             <br>
             <label for="floatingInput">O QUE ELES FAZEM:</label> O Palácio da Música é um espaço mantido pela Prefeitura de Teresina, através da Fundação Municipal de Cultura Monsenhor Chaves.
             <br>
-            <label for="floatingInput">LOCALIZAÇÃ:</label> R. Santa Luzia, 1241 - Centro (Sul), Teresina - PI, 64001-400
+            <label for="floatingInput">LOCALIZAÇÃO:</label> R. Santa Luzia, 1241 - Centro (Sul), Teresina - PI, 64001-400
             <br>
             <br>
             <div class="text-center" >
@@ -262,7 +262,7 @@ if (WURFL.form_factor === 'Desktop') {
             <br>
             <label for="floatingInput">O QUE ELES FAZEM:</label> Escola Musical.
             <br>
-            <label for="floatingInput">LOCALIZAÇÃ:</label> Escola de música Dona Gal - R. Rui Barbosa, 3101 - São Joaquim, Teresina - PI, 64002-180
+            <label for="floatingInput">LOCALIZAÇÃO:</label> Escola de música Dona Gal - R. Rui Barbosa, 3101 - São Joaquim, Teresina - PI, 64002-180
             <br>
             <br>
             <div class="text-center" >
@@ -283,7 +283,7 @@ if (WURFL.form_factor === 'Desktop') {
             <br>
             <label for="floatingInput">O QUE ELES FAZEM:</label> O Grupo Equilíbrio é uma plataforma onde os artistas podem estudar, pesquisar, praticar e principalmente produzir sua arte, tornando-se referência da área no Estado do Piauí. 
             <br>
-            <label for="floatingInput">LOCALIZAÇÃ:</label> Av. José dos Santos e Silva, 1085 - Centro (Sul), Teresina - PI, 64001-300
+            <label for="floatingInput">LOCALIZAÇÃO:</label> Av. José dos Santos e Silva, 1085 - Centro (Sul), Teresina - PI, 64001-300
             <br>
             <br>
             <div class="text-center" >
@@ -305,7 +305,7 @@ if (WURFL.form_factor === 'Desktop') {
             <br>
             <label for="floatingInput">O QUE ELES FAZEM:</label>
             <br>
-            <label for="floatingInput">LOCALIZAÇÃ:</label> Av. Mal. Rondon - Parque Piaui, Teresina - PI
+            <label for="floatingInput">LOCALIZAÇÃO:</label> Av. Mal. Rondon - Parque Piaui, Teresina - PI
             <br>
             <br>
             <div class="text-center" >
@@ -314,7 +314,7 @@ if (WURFL.form_factor === 'Desktop') {
               <div>
                 <div><a class="cadastro redes-contato" href="https://instagram.com/associadejuventude"><img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="" srcset="">Instagram</a></div>
                 <br>
-                <div><a class="cadastro redes-contato" href=""><img src="https://cdn-icons-png.flaticon.com/512/281/281769.png" alt="" srcset=""> Gmail: ajmt2021associacao@gmail.com</a></div>
+                <div><a class="cadastro redes-contato" href=""><img src="https://cdn-icons-png.flaticon.com/512/281/281769.png" alt="" srcset="">ajmt2021associacao@gmail.com</a></div>
                 <br>
                 <div><a class="cadastro redes-contato" href="https://l.wl.co/l?u=https%3A%2F%2Fforms.gle%2FqS1WgG68sK4cBZCF6"><img src="https://cdn-icons-png.flaticon.com/512/2875/2875409.png">Formulário de inscrição </a></div>
               </div>
