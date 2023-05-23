@@ -188,8 +188,8 @@ if (WURFL.form_factor === 'Desktop') {
         });
 
         let pessoaIcon = L.icon({
-            iconUrl: 'img/imgbin-walter-white-jesse-pinkma-sem-fundo.png',
-            iconSize: [40, 55] 
+          iconUrl: 'img/icon-alfinete.png',
+          iconSize: [45, 55] 
         });   
 
         let localizacaoPessoa = L.marker([pos.coords.latitude, pos.coords.longitude], { icon: pessoaIcon }).addTo(map)
