@@ -23,28 +23,42 @@ let palacioDaMusicaObj = Object.create(pessoa)
 palacioDaMusicaObj.nomeProjeto = 'Palácio da Música'
 palacioDaMusicaObj.objProjeto = 'O Palácio da Música é um espaço mantido pela Prefeitura de Teresina, através da Fundação Municipal de Cultura Monsenhor Chaves.'
 palacioDaMusicaObj.localizacaoProjeto = 'R. Santa Luzia, 1241 - Centro (Sul), Teresina - PI, 64001-400'
-palacioDaMusicaObj.informacao1 = '<div><a class="cadastro redes-contato" href="https://www.instagram.com/palaciodamusica/"><img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="" srcset="">Instagram</a></div>'
+palacioDaMusicaObj.informacao1 = '<div><a class="cadastro redes-contato" href="https://www.instagram.com/palaciodamusica/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="" srcset="">Instagram</a></div>'
 
 let escolaMusicaDonaGalObj = Object.create(pessoa)
 escolaMusicaDonaGalObj.nomeProjeto = 'ESCOLA DE MÚSICA DONA GAL'
 escolaMusicaDonaGalObj.objProjeto = 'Escola Musical'
 escolaMusicaDonaGalObj.localizacaoProjeto = 'Escola de música Dona Gal - R. Rui Barbosa, 3101 - São Joaquim, Teresina - PI, 64002-180'
-escolaMusicaDonaGalObj.informacao1 = '<div><a class="cadastro redes-contato" href="https://instagram.com/donagalescolademusica"><img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="" srcset="">Instagram</a></div>'
+escolaMusicaDonaGalObj.informacao1 = '<div><a class="cadastro redes-contato" href="https://instagram.com/donagalescolademusica" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="" srcset="">Instagram</a></div>'
 
 let orgPontoDeEquilibrioObj = Object.create(pessoa)
 orgPontoDeEquilibrioObj.nomeProjeto = 'Org Ponto de Equilíbrio'
 orgPontoDeEquilibrioObj.objProjeto = 'O Grupo Equilíbrio é uma plataforma onde os artistas podem estudar, pesquisar, praticar e principalmente produzir sua arte, tornando-se referência da área no Estado do Piauí.'
 orgPontoDeEquilibrioObj.localizacaoProjeto = 'Av. José dos Santos e Silva, 1085 - Centro (Sul), Teresina - PI, 64001-300'
-orgPontoDeEquilibrioObj.informacao1 = '<div><a class="cadastro redes-contato" href="https://www.instagram.com/org_pontodeequilibrio/"><img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="" srcset="">Instagram</a></div>'
-orgPontoDeEquilibrioObj.informacao2 = '<br><div><a class="cadastro redes-contato" href="https://www.opeq.com.br/?fbclid=PAAaZs6s3lmsEVr0usRd1UHtVCQ8eCGNfQoqVKyoOgu8AXsaq89CTj7Jeo5Oc">Site</a></div>'
+orgPontoDeEquilibrioObj.informacao1 = '<div><a class="cadastro redes-contato" href="https://www.instagram.com/org_pontodeequilibrio/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="" srcset="">Instagram</a></div>'
+orgPontoDeEquilibrioObj.informacao2 = '<br><div><a class="cadastro redes-contato" href="https://www.opeq.com.br/?fbclid=PAAaZs6s3lmsEVr0usRd1UHtVCQ8eCGNfQoqVKyoOgu8AXsaq89CTj7Jeo5Oc" target="_blank">Site</a></div>'
 
 let aJMTObj = Object.create(pessoa)
 aJMTObj.nomeProjeto = 'Associação de juventude AJMT'
 aJMTObj.objProjeto = ''
 aJMTObj.localizacaoProjeto = 'Av. Mal. Rondon - Parque Piaui, Teresina - PI'
-aJMTObj.informacao1 = '<div><a class="cadastro redes-contato" href="https://instagram.com/associadejuventude"><img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="" srcset="">Instagram</a></div>'
-aJMTObj.informacao2 = '<div><a class="cadastro redes-contato" href=""><img src="https://cdn-icons-png.flaticon.com/512/281/281769.png" alt="" srcset=""> Gmail: ajmt2021associacao@gmail.com</a></div>'
-aJMTObj.informacao3 = '<div><a class="cadastro redes-contato" href="https://l.wl.co/l?u=https%3A%2F%2Fforms.gle%2FqS1WgG68sK4cBZCF6"><img src="https://cdn-icons-png.flaticon.com/512/2875/2875409.png">Formulário de inscrição </a></div>'
+aJMTObj.informacao1 = '<div><a class="cadastro redes-contato" target="_blank" href="https://instagram.com/associadejuventude"><img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="" srcset="">Instagram</a></div>'
+aJMTObj.informacao2 = '<div><a class="cadastro redes-contato" target="_blank" href=""><img src="https://cdn-icons-png.flaticon.com/512/281/281769.png" alt="" srcset=""> Gmail: ajmt2021associacao@gmail.com</a></div>'
+aJMTObj.informacao3 = '<div><a class="cadastro redes-contato" target="_blank" href="https://l.wl.co/l?u=https%3A%2F%2Fforms.gle%2FqS1WgG68sK4cBZCF6"><img src="https://cdn-icons-png.flaticon.com/512/2875/2875409.png">Formulário de inscrição </a></div>'
+
+let centralAMDObj = Object.create(pessoa)
+centralAMDObj.nomeProjeto = 'Central de Artesanato Mestre Dezinho'
+centralAMDObj.objProjeto = 'Unir os artesãos existentes no Piauí para buscar a venda dos seus produtos, dentro e fora do Estado; Incentivar a produção artesanal, como sendo uma fonte alternativa de renda familiar; Buscar novos talentos através de estudos, promoções eventos e feiras ;Incentivar a produção artesanal através de Cursos e Oficinas de Treinamento e qualificação ;Divulgar os trabalhos dos artesãos participando de feiras e eventos nos outros Estados.'
+centralAMDObj.localizacaoProjeto = 'Praça Pedro II - Centro (Sul), Teresina - PI, 64001-270'
+centralAMDObj.informacao1 = '<div><a class="cadastro redes-contato" target="_blank" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi_rtH1jI7_AhXmqZUCHeoKCHUQFnoECA8QAQ&url=https%3A%2F%2Fwww.instagram.com%2Fartesanatopiauiense%2F&usg=AOvVaw2N5pN2sYcpBglyONFND6xb"><img src="https://cdn-icons-png.flaticon.com/512/174/174855.png">Instagram</a></div>'
+
+let fundacaoWallFerraz = Object.create(pessoa)
+fundacaoWallFerraz.nomeProjeto = 'FUNDAÇÃO WALL FERRAZ'
+fundacaoWallFerraz.objProjeto = 'A Fundação Wall Ferraz tem como missão primaz capacitar e qualificar profissionalmente os munícipes, com vistas a inseri-los no mercado de trabalho, favorecendo a inclusão social e a conseqüente geração de emprego e renda.'
+fundacaoWallFerraz.localizacaoProjeto = ' R. Coelho Rodrigues, 900 - Centro (Sul), Teresina - PI, 64000-080'
+fundacaoWallFerraz.informacao1 = '<div><a class="cadastro redes-contato" target="_blank" href=" https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiTyZrNjY7_AhVVrJUCHV3oDj4QFnoECBsQAQ&url=https%3A%2F%2Fwww.instagram.com%2Ffundwallferraz%2F&usg=AOvVaw2roC22oiJxSPGcDxwGzA41"><img src="https://cdn-icons-png.flaticon.com/512/174/174855.png">Instagram</a></div>'
+fundacaoWallFerraz.informacao2 = '<br><div><a class="cadastro redes-contato" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiTyZrNjY7_AhVVrJUCHV3oDj4QFnoECAoQAQ&url=https%3A%2F%2Ffwf.pmt.pi.gov.br%2F&usg=AOvVaw17BCX8DnNmPDKtEOjNJiaG" target="_blank">Site</a></div>'
+
 
 function informacoes(pessoa) {
   interacao.innerHTML = `
@@ -107,7 +121,10 @@ function mapFuction() {
     let aJMT = L.marker([-5.141800, -42.788900]).addTo(map)
       .bindPopup('Associação de juventude AJMT');
 
-    musicaParaTodos.on('click', function () {
+    let centralAMD = L.marker([-5.092145397424909, -42.81263557310666]).addTo(map)
+      .bindPopup('Central de Artesanato Mestre Dezinho');  
+
+      musicaParaTodos.on('click', function () {
       informacoes(musicaParaTodosObj);
     })
 
@@ -127,6 +144,10 @@ function mapFuction() {
       informacoes(aJMTObj);
     })
 
+    centralAMD.on('click', function(){
+      informacoes(centralAMDObj)
+    })
+
     localizacaoPessoa.on('click', function () {
       interacao.innerHTML = ``
     });
@@ -143,36 +164,10 @@ function mapFuction() {
 
 if (WURFL.form_factor === 'Desktop') {
   interacao = document.getElementById('interacao-pc')
-  let styleElement = document.createElement('style');
-
-  let styles = `
-  .interacao-pc{
-    font-size: 20px;
-    margin-left: 10px;
-    max-width: 430px;
-    text-align: justify;
-  }`
-
-  styleElement.innerHTML = styles;
-  let headElement = document.head || document.getElementsByTagName('head')[0];
-  headElement.appendChild(styleElement);
-
   mapFuction()
 
 } else {
   console.log('mobile')
   let interacao = document.getElementById('interacao')
-  let styleElement = document.createElement('style');
-
-  let styles = `
-  .interacao{
-    font-size: 20px;
-    width: 100%
-  }
-  `
-  styleElement.innerHTML = styles;
-  let bodyElement = document.body || document.getElementsByTagName('body')[0];
-  bodyElement.appendChild(styleElement);
-
   mapFuction()
 }
