@@ -53,19 +53,6 @@ a{
 
 }
 
-.interacao{
-    font-size: 20px;
-    width: 100%;
-
-}
-
-.interacao-pc{
-    font-size: 20px;
-    margin-left: 10px;
-    max-width: 430px;
-    text-align: justify;
-}
-
 .interacao-config{
     position: relative;
     color: white;
