@@ -52,12 +52,12 @@ centralAMDObj.objProjeto = 'Unir os artesãos existentes no Piauí para buscar a
 centralAMDObj.localizacaoProjeto = 'Praça Pedro II - Centro (Sul), Teresina - PI, 64001-270'
 centralAMDObj.informacao1 = '<div><a class="cadastro redes-contato" target="_blank" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi_rtH1jI7_AhXmqZUCHeoKCHUQFnoECA8QAQ&url=https%3A%2F%2Fwww.instagram.com%2Fartesanatopiauiense%2F&usg=AOvVaw2N5pN2sYcpBglyONFND6xb"><img src="https://cdn-icons-png.flaticon.com/512/174/174855.png">Instagram</a></div>'
 
-let fundacaoWallFerraz = Object.create(pessoa)
-fundacaoWallFerraz.nomeProjeto = 'FUNDAÇÃO WALL FERRAZ'
-fundacaoWallFerraz.objProjeto = 'A Fundação Wall Ferraz tem como missão primaz capacitar e qualificar profissionalmente os munícipes, com vistas a inseri-los no mercado de trabalho, favorecendo a inclusão social e a conseqüente geração de emprego e renda.'
-fundacaoWallFerraz.localizacaoProjeto = ' R. Coelho Rodrigues, 900 - Centro (Sul), Teresina - PI, 64000-080'
-fundacaoWallFerraz.informacao1 = '<div><a class="cadastro redes-contato" target="_blank" href=" https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiTyZrNjY7_AhVVrJUCHV3oDj4QFnoECBsQAQ&url=https%3A%2F%2Fwww.instagram.com%2Ffundwallferraz%2F&usg=AOvVaw2roC22oiJxSPGcDxwGzA41"><img src="https://cdn-icons-png.flaticon.com/512/174/174855.png">Instagram</a></div>'
-fundacaoWallFerraz.informacao2 = '<br><div><a class="cadastro redes-contato" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiTyZrNjY7_AhVVrJUCHV3oDj4QFnoECAoQAQ&url=https%3A%2F%2Ffwf.pmt.pi.gov.br%2F&usg=AOvVaw17BCX8DnNmPDKtEOjNJiaG" target="_blank">Site</a></div>'
+let fundacaoWallFerrazObj = Object.create(pessoa)
+fundacaoWallFerrazObj.nomeProjeto = 'FUNDAÇÃO WALL FERRAZ'
+fundacaoWallFerrazObj.objProjeto = 'A Fundação Wall Ferraz tem como missão primaz capacitar e qualificar profissionalmente os munícipes, com vistas a inseri-los no mercado de trabalho, favorecendo a inclusão social e a conseqüente geração de emprego e renda.'
+fundacaoWallFerrazObj.localizacaoProjeto = ' R. Coelho Rodrigues, 900 - Centro (Sul), Teresina - PI, 64000-080'
+fundacaoWallFerrazObj.informacao1 = '<div><a class="cadastro redes-contato" target="_blank" href=" https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiTyZrNjY7_AhVVrJUCHV3oDj4QFnoECBsQAQ&url=https%3A%2F%2Fwww.instagram.com%2Ffundwallferraz%2F&usg=AOvVaw2roC22oiJxSPGcDxwGzA41"><img src="https://cdn-icons-png.flaticon.com/512/174/174855.png">Instagram</a></div>'
+fundacaoWallFerrazObj.informacao2 = '<br><div><a class="cadastro redes-contato" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiTyZrNjY7_AhVVrJUCHV3oDj4QFnoECAoQAQ&url=https%3A%2F%2Ffwf.pmt.pi.gov.br%2F&usg=AOvVaw17BCX8DnNmPDKtEOjNJiaG" target="_blank">Site</a></div>'
 
 
 function informacoes(pessoa) {
@@ -124,7 +124,10 @@ function mapFuction() {
     let centralAMD = L.marker([-5.092145397424909, -42.81263557310666]).addTo(map)
       .bindPopup('Central de Artesanato Mestre Dezinho');  
 
-      musicaParaTodos.on('click', function () {
+    let wallFerraz = L.marker([-5.091298410803719, -42.81705960552428]).addTo(map)
+      .bindPopup('Fundação Wall Ferraz');  
+    
+    musicaParaTodos.on('click', function () {
       informacoes(musicaParaTodosObj);
     })
 
@@ -146,6 +149,10 @@ function mapFuction() {
 
     centralAMD.on('click', function(){
       informacoes(centralAMDObj)
+    })
+
+    wallFerraz.on('click', function(){
+      informacoes(fundacaoWallFerrazObj)
     })
 
     localizacaoPessoa.on('click', function () {
